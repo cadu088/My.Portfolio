@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Solicitador de TCC",
+    "description": "Meu primeiro projeto mobile, um aplicativo para solicitar a orientação de TCC. 📱",
+    "technologies": ["javascript","reactNative","expo","cSharp"],
+    "gitHub": "https://github.com/cadu088/SolicitadorDeTCC",
+    "visualData": [],
+    "iframe": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7071455660508364801",
+    "text": "",
+    "cover": "./images/Projects/SolicitaTcc/ApresentaçãoAPP-H1.png"
+  },
+  {
+    "id": 2,
+    "title": "Jogo Sério - TEA",
+    "description": "Jogo Sério com realidade aumentada para tratamento do Espectro Autista, TEA.",
+    "technologies": ["unity","cSharp"],
+    "gitHub": "https://github.com/cadu088/JogoSerio-UNIARAXA",
+    "visualData": [],
+    "iframe": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6987728221974736897",
+    "text": "",
+    "cover": "./images/Projects/jogoSerio/capa.JPG"
+  },
+  {
+    "id": 3,
+    "title": "Detecção de expressões",
+    "description": "Utilização de reconhecimento facial para detecção de expressões humanas.",
+    "technologies": ["python","keras", "tensorflow"],
+    "gitHub": "https://github.com/cadu088/ReconhecimentoFacial",
+    "visualData": [],
+    "iframe": "",
+    "text": "",
+    "cover": "./images/Projects/reconhecimentoFacial/capa.JPG"
+  },
+  {
+    "id": 4,
+    "title": "Pesquisar por coordenadas",
+    "description": "Busca de coordenadas utilizando a api do Google Maps.",
+    "technologies": ["html","css", "javascript"],
+    "gitHub": "https://github.com/cadu088/Pesquisa-por-coordenadas",
+    "visualData": [],
+    "iframe": "",
+    "text": "",
+    "cover": "./images/Projects/buscaCoordenadas/capa.JPG"
+  }
+]
