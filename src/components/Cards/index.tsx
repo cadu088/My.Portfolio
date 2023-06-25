@@ -169,7 +169,7 @@ export function Cards({ data }: cardProps) {
                 ml={["0px", "0px", "20px", "20px"]}
                 borderRadius="8px"
                 mb={["20px", "20px", "0px", "0px"]}
-                h={["40vh", "40vh", "none", "none"]}
+                h={["40vh", "40vh", "450px", "450px"]}
               >
                 <Box
                   flexDirection="column"
