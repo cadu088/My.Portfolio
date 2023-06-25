@@ -27,7 +27,13 @@
     "description": "Utilização de reconhecimento facial para detecção de expressões humanas.",
     "technologies": ["python","keras", "tensorflow"],
     "gitHub": "https://github.com/cadu088/ReconhecimentoFacial",
-    "visualData": [],
+    "visualData": [
+      "./images/Projects/reconhecimentoFacial/um.JPG",
+      "./images/Projects/reconhecimentoFacial/dois.JPG", 
+      "./images/Projects/reconhecimentoFacial/tres.JPG",
+      "./images/Projects/reconhecimentoFacial/quatro.JPG",
+      "./images/Projects/reconhecimentoFacial/cinco.JPG"
+    ],
     "iframe": "",
     "text": "",
     "cover": "./images/Projects/reconhecimentoFacial/capa.JPG"
