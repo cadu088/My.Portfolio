@@ -43,17 +43,24 @@ export function Musics() {
       w="100%"
       // h="90vh"
       // pt={["20px", "20px", "20px", 50]}
-      pb={[0, 0, 0, 50]}
+      pb={[50]}
+      pt={[50]}
       // bgGradient="linear(to-r, #434343, #000000)"
-      bg="gray.50"
-      // boxShadow="inner"
+      // bgGradient="linear(109.6deg, rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1%)"
+      bgGradient="linear(to-t, gray.800, #584098)"
+      // bgColor="gray.50"
+      boxShadow="inner"
       alignItems={"center"}
       alignContent={"center"}
       display="flex"
       justifyContent={"center"}
     >
       <Box
-        w={["100%", "100%", "100%", "90%"]}
+        bg="gray.50"
+        boxShadow="dark-lg"
+        color="black"
+        borderRadius="md"
+        w={["95%", "95%", "95%", "90%"]}
         display={["block", "block", "block", "flex"]}
         justifyContent="space-between"
         p={5}
@@ -100,7 +107,7 @@ export function Musics() {
             </Text>
             <Text
               fontSize="15px"
-              textAlign={"center"}
+              textAlign={["justify", "center", "center", "center"]}
               color="gray.800"
               letterSpacing="0px"
               fontWeight="500"
@@ -118,13 +125,13 @@ export function Musics() {
           alignContent="center"
           alignItems="center"
           justifyContent="center"
-          mt={[-10, -10, 5, 0]}
+          mt={[-5, -10, 5, 0]}
         >
           <iframe
             style={{ borderRadius: "12px" }}
             src="https://open.spotify.com/embed/playlist/2t1d4ijnQecbOXBbY7oAdW?utm_source=generator"
             width="100%"
-            height="80%"
+            height="90%"
             frameBorder="0"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"

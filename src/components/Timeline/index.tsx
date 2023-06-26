@@ -44,8 +44,10 @@ export function Timeline() {
       // pt={["20px", "20px", "20px", 50]}
       pb={[0, 0, 0, 50]}
       // bgGradient="linear(to-r, #434343, #000000)"
-      bg="gray.50"
-      // boxShadow="inner"
+      // bg="gray.800"
+      bg="gray.100"
+      //bgGradient="linear(to-t, gray.800, #584098)"
+      boxShadow="inner"
       alignItems={"center"}
       alignContent={"center"}
       display="block"
@@ -97,10 +99,10 @@ export function Timeline() {
       <Box w="100%" display="inline-flex" justifyContent="center" mt={10}>
         <Flex maxW={["95%", "95%", "95%", "90%"]} justifyContent="space-around">
           <MotionBox
-            bg="gray.100"
+            // bg="gray.100"
             // w="100%"
             borderRadius="md"
-            boxShadow="inner"
+            // boxShadow="inner"
             backdropFilter="auto"
             backdropBlur="10px"
             display="flex"

@@ -116,7 +116,7 @@ export function GitHub() {
             display="flex"
             justifyContent="space-around"
             w={["100%", "80%", "80%", "55%"]}
-            h="100%"
+            h={["120%", "100%", "100%", "100%"]}
           >
             <Image
               src={

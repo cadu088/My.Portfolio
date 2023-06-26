@@ -99,7 +99,7 @@ export function Cards({ data }: cardProps) {
             borderTopRightRadius={["none", "none", "lg", "lg"]}
             borderBottomRightRadius="lg"
             borderBottomLeftRadius={["lg", "lg", "none", "none"]}
-            bg="gray.50"
+            bg="white"
             p={2}
             color="gray.800"
           >
