@@ -92,7 +92,9 @@ export function Header() {
           color="gray.800"
           mr={5}
         >
-          <Box>Sobre mim</Box>
+          <Box as="a" href="#me">
+            Sobre mim
+          </Box>
           <Box as="a" href="#timeline">
             Projetos
           </Box>

@@ -129,7 +129,7 @@ export function Musics() {
         >
           <iframe
             style={{ borderRadius: "12px" }}
-            src="https://open.spotify.com/embed/playlist/2t1d4ijnQecbOXBbY7oAdW?utm_source=generator"
+            src="https://open.spotify.com/embed/playlist/0qFR8DEb4BS3XJrix4AWQX?utm_source=generator"
             width="100%"
             height="90%"
             frameBorder="0"

@@ -56,6 +56,7 @@ export function Me() {
       display="flex"
       justifyContent={"center"}
       // mt={10}
+      id="me"
     >
       <Box
         w={["100%", "100%", "100%", "90%"]}

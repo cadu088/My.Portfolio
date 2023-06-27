@@ -6,6 +6,9 @@ import { Timeline } from "../../components/Timeline";
 import { GitHub } from "../../components/GitHub";
 import { Musics } from "../../components/Musics";
 import { Me } from "../../components/Me";
+import { SoftSkills } from "../../components/SoftSkills";
+import { Tecnl } from "../../components/Tecnl";
+import { Footer } from "../../components/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -132,6 +135,63 @@ const Home: React.FC = () => {
         </svg>
       </div>
       <Me />
+      <div
+        style={{
+          display: "inline-block",
+          position: "relative",
+          width: "100%",
+          height: "auto",
+          // paddingBottom: "100%",
+          verticalAlign: "middle",
+          overflow: "hidden",
+          backgroundColor: "gray.800",
+        }}
+      >
+        <svg
+          viewBox="0 0 500 75"
+          preserveAspectRatio="xMinYMin meet"
+          style={{ marginTop: "-10px" }}
+        >
+          <path
+            d="M0,60 C150,70 350,0 500,65 L500,00 L0,0 Z"
+            style={{
+              stroke: "none",
+              fill: "#e4e4e4",
+              filter: "drop-shadow(3px 3px 4px #0000002A)",
+            }}
+          ></path>
+        </svg>
+      </div>
+      <SoftSkills />
+      <Tecnl />
+      <div
+        style={{
+          display: "inline-block",
+          position: "relative",
+          width: "100%",
+          height: "auto",
+          // paddingBottom: "100%",
+          verticalAlign: "middle",
+          overflow: "hidden",
+          backgroundColor: "#e4e4e4",
+        }}
+      >
+        <svg
+          viewBox="0 0 500 75"
+          preserveAspectRatio="xMinYMin meet"
+          style={{ marginTop: "-10px" }}
+        >
+          <path
+            d="M0,60 C150,70 350,0 500,65 L500,00 L0,0 Z"
+            style={{
+              stroke: "none",
+              fill: "#111112",
+              filter: "drop-shadow(3px 3px 4px #0000002A)",
+            }}
+          ></path>
+        </svg>
+      </div>
+      <Footer />
     </Box>
   );
 };
