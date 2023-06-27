@@ -47,7 +47,6 @@ export function Timeline() {
       // bg="gray.800"
       bg="gray.100"
       //bgGradient="linear(to-t, gray.800, #584098)"
-      boxShadow="inner"
       alignItems={"center"}
       alignContent={"center"}
       display="block"

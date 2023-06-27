@@ -55,7 +55,7 @@ export function Me() {
       alignContent={"center"}
       display="flex"
       justifyContent={"center"}
-      mt={10}
+      // mt={10}
     >
       <Box
         w={["100%", "100%", "100%", "90%"]}

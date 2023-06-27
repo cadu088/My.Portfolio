@@ -49,7 +49,7 @@ export function Musics() {
       // bgGradient="linear(109.6deg, rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1%)"
       bgGradient="linear(to-t, gray.800, #584098)"
       // bgColor="gray.50"
-      boxShadow="inner"
+      // boxShadow="inner"
       alignItems={"center"}
       alignContent={"center"}
       display="flex"
