@@ -1,0 +1,65 @@
+.trinaguloM button {
+    cursor: pointer;
+    position: fixed;
+    width: 8vmin;
+    height: 8vmin;
+    right: 4vmin;
+    bottom: 6vmin;
+    background-position: 1vmin;
+    background-size: 6vmin;
+    background-repeat: no-repeat;
+    background-image: url('./super-mario-brothers-147465_1280.webp');
+    background-color: transparent;
+    border-color: transparent;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.trinaguloM button:hover {
+    transform: rotate(0deg);
+    border-color: transparent;
+    filter: brightness(0.9);
+}
+
+.trinaguloM button:focus {
+    animation: up 3s normal;
+}
+
+@keyframes up {
+    0% {
+        background-size: 100%;
+        background-image: url('https://media0.giphy.com/media/NDqBIAjtA1Z72/giphy.gif?cid=ecf05e474gm9ja88s705mfvn83ejtcd73fyiyc02j2owr1r7&rid=giphy.gif&ct=s');
+    }
+    40% {
+        transform: translateY(-50vmin);
+        border-color: transparent;
+        opacity: 1;
+        background-size: 100%;
+        filter: drop-shadow(-7px 13px 0px rgba(0, 0, 0, 0.527));
+    }
+    44% {
+        border-color: transparent;
+        opacity: 0;
+        background-size: 100%;
+        filter: drop-shadow(-14px 13px 0px rgba(0, 0, 0, 0.527));
+        background-image: url('https://media0.giphy.com/media/NDqBIAjtA1Z72/giphy.gif?cid=ecf05e474gm9ja88s705mfvn83ejtcd73fyiyc02j2owr1r7&rid=giphy.gif&ct=s');
+    }
+    45% {
+        filter: drop-shadow(-14px 13px 0px rgba(0, 0, 0, 0.527));
+        transform: translateY(-50vmin);
+        opacity: 1;
+        background-image: url('https://media1.giphy.com/media/xSVQgqlSTMXYs/giphy.gif?cid=ecf05e47ekwlhrk9li5uhhav1y623o0vjovjw7epr4lv9n3t&rid=giphy.gif&ct=s');
+    }
+    70% {
+        transform: translateY(-50vmin);
+        opacity: 0;
+        background-size: 80%;
+        background-image: url('https://media1.giphy.com/media/xSVQgqlSTMXYs/giphy.gif?cid=ecf05e47ekwlhrk9li5uhhav1y623o0vjovjw7epr4lv9n3t&rid=giphy.gif&ct=s');
+    }
+    100% {
+        transform: rotate(0deg);
+        background-size: 50%;
+        background-image: url('./super-mario-brothers-147465_1280.webp');
+        transform: translateY(0vmin);
+        opacity: 0;
+    }
+}

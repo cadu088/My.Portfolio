@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+html {
+	scroll-behavior: smooth;
+}
 *{
 		scrollbar-width: thin; /* "auto" or "thin" */
     scrollbar-color: #d8d8d8 #ffffff3a; /* scroll thumb and track */

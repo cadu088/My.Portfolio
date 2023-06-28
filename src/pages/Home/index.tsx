@@ -9,6 +9,7 @@ import { Me } from "../../components/Me";
 import { SoftSkills } from "../../components/SoftSkills";
 import { Tecnl } from "../../components/Tecnl";
 import { Footer } from "../../components/Footer";
+import UpTop from "../../components/UpTop";
 
 const Home: React.FC = () => {
   return (
@@ -192,6 +193,7 @@ const Home: React.FC = () => {
         </svg>
       </div>
       <Footer />
+      <UpTop />
     </Box>
   );
 };

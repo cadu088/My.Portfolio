@@ -11,6 +11,10 @@ import {
 } from "@chakra-ui/react";
 
 export function Header() {
+  function scroll(selector: string) {
+    const section = document.querySelector(selector);
+    section?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   return (
     <Flex
       w={["100vw"]}
@@ -46,8 +50,8 @@ export function Header() {
           // p={2}
           // borderRadius={8}
           // mt={4}
-          as="a"
-          href="#home"
+          as="button"
+          onClick={() => scroll("#home")}
         >
           <Avatar
             size="md"
@@ -92,10 +96,10 @@ export function Header() {
           color="gray.800"
           mr={5}
         >
-          <Box as="a" href="#me">
+          <Box as="button" onClick={() => scroll("#me")}>
             Sobre mim
           </Box>
-          <Box as="a" href="#timeline">
+          <Box as="button" onClick={() => scroll("#timeline")}>
             Projetos
           </Box>
           <Box as="a" href="/hub">

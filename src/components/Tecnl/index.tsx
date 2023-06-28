@@ -91,11 +91,23 @@ export function Tecnl() {
             >
               TECH
             </Text>
+            <Box color="gray.800" fontFamily="Inter, sans-serif">
+              <Text fontSize="14px" textAlign={"justify"} mt={5}>
+                Durante a minha experiência na faculdade, pude explorar uma
+                ampla gama de tecnologias e frameworks. Acredito firmemente que
+                um sólido conhecimento em lógica e programação orientada a
+                objetos é fundamental, pois a escolha da linguagem de
+                programação adequada depende das necessidades específicas,
+                permitindo uma transição mais suave de acordo com a semântica
+                adotada. A seguir, apresento algumas das tecnologias com as
+                quais tive maior uso até o momento.
+              </Text>
+            </Box>
             <Box
               color="gray.800"
               fontFamily="Inter, sans-serif"
               fontWeight="800"
-              mt={2}
+              mt={5}
             >
               <List spacing={3}>
                 <ListItem>
