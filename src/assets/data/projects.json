@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Jogo Sério - TEA",
-    "description": "Jogo Sério com realidade aumentada para tratamento do Espectro Autista, TEA.",
+    "description": "Jogo Sério com realidade aumentada para treino de habilidades para pessoas no Espectro Autista, TEA.",
     "technologies": ["unity","cSharp"],
     "gitHub": "https://github.com/cadu088/JogoSerio-UNIARAXA",
     "visualData": [],
